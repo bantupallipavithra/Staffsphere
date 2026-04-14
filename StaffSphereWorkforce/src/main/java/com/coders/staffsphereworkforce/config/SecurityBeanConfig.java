@@ -14,7 +14,7 @@ import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 @Configuration
 public class SecurityBeanConfig {
 
-	private final  String FRONTENDURL = "http://localhost:5173";
+	private final  String FRONTENDURL = "https://staffsphere-lyart.vercel.app/";
 	
 	@Bean
 	public PasswordEncoder passwordEncoder() {
